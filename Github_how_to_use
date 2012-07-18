@@ -1,0 +1,37 @@
+Set up Git
+
+	git config --global user.name "Your name"
+	git config --global user.email jerry@aquamw.com
+
+Next:
+	
+	mkdir Jerry_Test		
+	cd Jerry_Test
+	git init
+	touch README
+	git add README
+	git commit -m 'first commit'
+	git remote add origin https://github.com/JerryT/Jerry_Test.git
+	git push -u origin master
+
+To push
+
+	git add <Filename>
+	git commit -m 'Your message'
+	git push
+
+To pull
+
+	git checkout
+	git pull
+
+To delete files
+
+	//Delete the files on the local folder first
+	git add . -A
+	git commit -m 'Removed some files'
+	git push
+
+
+
+
